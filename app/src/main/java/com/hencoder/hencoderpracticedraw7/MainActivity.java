@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     List<PageModel> pageModels = new ArrayList<>();
 
     {
+        pageModels.add(new PageModel(R.layout.practice_my_animator, R.string.my_animator, R.layout.practice_my_animator));
         pageModels.add(new PageModel(R.layout.sample_argb_evaluator, R.string.title_argb_evaluator, R.layout.practice_argb_evaluator));
         pageModels.add(new PageModel(R.layout.sample_hsv_evaluator, R.string.title_hsv_evaluator, R.layout.practice_hsv_evaluator));
         pageModels.add(new PageModel(R.layout.sample_of_object, R.string.title_of_object, R.layout.practice_of_object));
@@ -62,9 +63,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private class PageModel {
-        @LayoutRes int sampleLayoutRes;
-        @StringRes int titleRes;
-        @LayoutRes int practiceLayoutRes;
+        @LayoutRes
+        int sampleLayoutRes;
+        @StringRes
+        int titleRes;
+        @LayoutRes
+        int practiceLayoutRes;
 
         PageModel(@LayoutRes int sampleLayoutRes, @StringRes int titleRes, @LayoutRes int practiceLayoutRes) {
             this.sampleLayoutRes = sampleLayoutRes;

@@ -6,5 +6,6 @@
     <string name="title_property_values_holder">PropertyValuesHolder</string>
     <string name="title_animator_set">AnimatorSet</string>
     <string name="title_keyframe">PropertyValuesHolder.ofKeyframe()</string>
+    <string name="my_animator">谷歌图片三维动画</string>
     <string name="animate">animate</string>
 </resources>

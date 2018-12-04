@@ -12,6 +12,9 @@ import android.widget.RelativeLayout;
 
 import com.hencoder.hencoderpracticedraw7.R;
 
+/**
+ * 用KeyFrame设置各个时间段的动画完成度
+ */
 public class Sample06KeyframeLayout extends RelativeLayout {
     Sample06KeyframeView view;
     Button animateBt;
